@@ -1,0 +1,3 @@
+group titles and add to model
+impute age based on median of class group
+scale variables
