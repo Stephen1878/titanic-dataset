@@ -1,3 +1,19 @@
-group titles and add to model
-impute age based on median of class group
-scale variables
+Finish Reading https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy
+Add a new model to my code - include family size
+check for collinearity
+stepwise variable selection?
+upload submission from the most accurate model
+coefficients and pvalues?
+loop for repeated actions during model evaluation
+Plan and create a new clean version of the code which can be repeated on future projects
+Ensure most common value is the one not included as a dummy variable
+
+Plan:
+-	Exploratory Data Analysis
+-	Create one dataset with ALL variables, including non-dummy variables
+-	Check for collinearity
+-	Split data into specific datasets with required columns
+-	Fit regression models
+-   Use stepwise or backward variable selection
+-	Use Kfold validation to determine the most accurate regression model
+-	Use the most accurate regression model to add predictions to csv file for submission
